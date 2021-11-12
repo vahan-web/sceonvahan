@@ -21,7 +21,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision :hostmanager
 
   config.vm.provision :ansible do |ansible|
-    ansible.playbook      = "LEMP-Ansible/site.yml"
+    ansible.playbook      = "roles/site.yml"
     ansible.sudo          = true
   end
 
