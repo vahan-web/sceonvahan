@@ -14,7 +14,7 @@ This script automates the following tasks:
 
  Installation and running
 
-- Clone the repository: `git clone git@github.com:sadhakbj/LEMP-Ansible.git`
+- Clone the repository:
 - Update the host file to include the server ip address
 - Update environment variables as per the need inside `roles/web/vars/main.yml` or `roles/db/vars/main.yml`
 - Update nginx vhost file as per your need inside: `roles/web/templates/vhost.j2`
