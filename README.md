@@ -13,7 +13,7 @@ Creates new non root low privileged user
 
 Installation and running
 
-Clone the repository: git clone git@github.com:sadhakbj/LEMP-Ansible.git
+Clone the repository: 
 cd to project and do 'vagrant up' command
 Run the following command to automate the server setup: ansible-playbook -i hosts site.yml
 
